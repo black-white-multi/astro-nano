@@ -12,3 +12,13 @@ repoURL: "https://store.steampowered.com/app/1455130"
 游戏采用即时制玩法，在游戏中通过掷骰子来移动步数，在地图上购买土地、建造豪宅，收取租金使对手破产，即可获得胜利！  
 
 **1人开发的独立游戏项目**
+
+<div class="flex items-center justify-center">
+    <a
+    href="https://store.steampowered.com/app/1455130"
+    target="_blank"
+    class="mx-2 rounded-full bg-orange-300 px-3 py-2 transition-colors duration-300 ease-in-out hover:bg-cyan-200 dark:bg-orange-500 dark:hover:bg-cyan-500"
+    >
+    前往Steam
+    </a>
+</div>
