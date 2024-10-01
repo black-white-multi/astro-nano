@@ -17,12 +17,12 @@ export function readingTime(html: string) {
   const textOnly = html.replace(/<[^>]+>/g, "");
   const wordCount = textOnly.split(/\s+/).length;
   const readingTimeMinutes = ((wordCount / 200) + 1).toFixed();
-  return `${readingTimeMinutes} min read`;
+  return `${readingTimeMinutes} 分鈡阅读`;
 }
 
 export function dateRange(startDate: Date, endDate?: Date | string): string {
-  const startMonth = startDate.toLocaleString("default", { month: "short" });
-  const startYear = startDate.getFullYear().toString();
+  const startMonth = startDate.toLocaleString("zh-cn", { month: "short" });
+  const startYear = startDate.getFullYear().toString() + "年";
   let endMonth;
   let endYear;
 
@@ -31,10 +31,10 @@ export function dateRange(startDate: Date, endDate?: Date | string): string {
       endMonth = "";
       endYear = endDate;
     } else {
-      endMonth = endDate.toLocaleString("default", { month: "short" });
-      endYear = endDate.getFullYear().toString();
+      endMonth = endDate.toLocaleString("zh-cn", { month: "short" });
+      endYear = endDate.getFullYear().toString() + "年";
     }
   }
 
-  return `${startMonth}${startYear} - ${endMonth}${endYear}`;
+  return `${startYear}${startMonth} - ${endYear}${endMonth}`;
 }

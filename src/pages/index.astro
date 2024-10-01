@@ -33,32 +33,39 @@ const work = await Promise.all(
 <PageLayout title={HOME.TITLE} description={HOME.DESCRIPTION}>
   <Container>
     <h4 class="animate font-semibold text-black dark:text-white">
-      Hi, I'm Nano <span class="text-xl">👋🏻</span> 
+      <p class="animate">
+        独立游戏开发者
+      </p>
+      <p class="animate">
+        全栈工程师
+      </p>
     </h4>
     <div class="space-y-16">
       <section>
         <article class="space-y-4">
           <p class="animate">
-            I am a minimal, seo friendly, accessible portfolio and blog for developers. 
-            I am an even more lightweight version of my popular theme
-            <Link href="https://github.com/markhorn-dev/astro-sphere" aria-label="Astro Sphere on Github" external>
-              Astro Sphere
-            </Link>.
-            I have a lighthouse scores of 100 across the board for performance, 
-            accesibility, best practices and SEO.
+            个人优势
           </p>
           <p class="animate">
-            I come packed with full type safety, a sitemap, an rss feed, markdown 
-            and mdx support (use components in your markdown) through astro integrations.
-            I am styled with tailwind and come preconfigured with light, dark and 
-            system/os theme preferences out of the box.
+            具有10年Unity3D游戏开发经验
           </p>
           <p class="animate">
-            Visit
-            <Link href="https://github.com/markhorn-dev/astro-nano" aria-label="Astro Nano on Github" external>
-              Astro Nano on Github
-            </Link>
-            to fork the repository, read the docs or one-click deploy on Vercel or Netlify. 
+            熟悉ASE制作Shader图形渲染技术
+          </p>
+          <p class="animate">
+            熟悉服务端+客户端U3D开发技术
+          </p>
+          <p class="animate">
+            熟悉Blender3D建模图形渲染
+          </p>
+          <p class="animate">
+            熟悉Substance Painter模型贴图制作
+          </p>
+          <p class="animate">
+            熟悉高模烘焙低模制作游戏素材
+          </p>
+          <p class="animate">
+            有较强的学习能力，具备独立解决技术问题的能力
           </p>
         </article>
       </section>
@@ -66,10 +73,10 @@ const work = await Promise.all(
       <section class="animate space-y-6">
         <div class="flex flex-wrap gap-y-2 items-center justify-between">
           <h5 class="font-semibold text-black dark:text-white">
-            Latest posts
+            最新文章
           </h5>
           <Link href="/blog">
-            See all posts
+            查看所有帖子
           </Link>
         </div>
         <ul class="flex flex-col gap-4">
@@ -84,10 +91,10 @@ const work = await Promise.all(
       <section class="animate space-y-6">
         <div class="flex flex-wrap gap-y-2 items-center justify-between">
           <h5 class="font-semibold text-black dark:text-white">
-            Work Experience
+            工作经历
           </h5>
           <Link href="/work">
-            See all work
+            查看所有
           </Link>
         </div>
         <ul class="flex flex-col space-y-4">
@@ -113,10 +120,10 @@ const work = await Promise.all(
       <section class="animate space-y-6">
         <div class="flex flex-wrap gap-y-2 items-center justify-between">
           <h5 class="font-semibold text-black dark:text-white">
-            Recent projects
+            最近的项目
           </h5>
           <Link href="/projects">
-            See all projects
+            查看所有项目
           </Link>
         </div>
         <ul class="flex flex-col gap-4">
@@ -130,23 +137,13 @@ const work = await Promise.all(
 
       <section class="animate space-y-4">
         <h5 class="font-semibold text-black dark:text-white">
-          Let's Connect
+          联系我
         </h5>
         <article>
           <p>
-            If you want to get in touch with me about something or just to say hi,
-            reach out on social media or send me an email.
           </p>
         </article>
         <ul class="flex flex-wrap gap-2">
-          {SOCIALS.map(SOCIAL => (
-            <li class="flex gap-x-2 text-nowrap">
-              <Link href={SOCIAL.HREF} external aria-label={`${SITE.NAME} on ${SOCIAL.NAME}`}>
-                {SOCIAL.NAME}
-              </Link>
-              {"/"}
-            </li>
-          ))}
           <li class="line-clamp-1">
             <Link href={`mailto:${SITE.EMAIL}`} aria-label={`Email ${SITE.NAME}`}>
               {SITE.EMAIL}
