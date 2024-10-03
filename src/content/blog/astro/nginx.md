@@ -33,7 +33,8 @@ server {
 
 ~~~sh
 location ~ / {
-    proxy_pass http://IP:8203;
+    #proxy_pass http://IP:8203;
+    proxy_pass https://blackwhiteblog.netlify.app;
 }
 ~~~
 
@@ -59,4 +60,8 @@ server {
 
 nginx -t  
 
+## 更新Astro
 
+* VSCode编译Astro项目/dist
+* 拷贝dist到服务器/var/www/html/dist
+* 手动执行sudo systemctl reload nginx  
