@@ -29,15 +29,6 @@ server {
 }
 ~~~
 
-反向代理  
-
-~~~sh
-location ~ / {
-    #proxy_pass http://IP:8203;
-    proxy_pass https://blackwhiteblog.netlify.app;
-}
-~~~
-
 ## Https配置
 
 使用阿里云域名的SS证书  
@@ -55,12 +46,18 @@ server {
     ssl_certificate_key "/etc/nginx/cert/blog.blackwhite.fun.key";
 
     server_name blog.blackwhite.fun;
+
+    #反向代理
+    location ~ / {
+        #proxy_pass http://IP:8203;
+        proxy_pass https://blackwhiteblog.netlify.app;
+    }
 }
 ~~~
 
 nginx -t  
 
-## 更新Astro
+## 手动更新Astro
 
 * VSCode编译Astro项目/dist
 * 拷贝dist到服务器/var/www/html/dist
