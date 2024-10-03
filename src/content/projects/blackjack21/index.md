@@ -9,6 +9,7 @@ repoURL: ""
 ![Blackjack 21](/blackjack21.png)
 
 * 21点+大富翁玩法+拼图的游戏
+* 上架海外AppStore，GooglePlay
 * 1人开发3个月
 
 <div class="flex items-center justify-center">
