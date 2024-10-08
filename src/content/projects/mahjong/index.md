@@ -9,10 +9,12 @@ repoURL: ""
 ![麻将经典版](/mahjong.png)
 
 * UI重构，UGUI转为FGUI  
+* UI底层框架重构
+* UI图集优化，从20M+到12M+
 * 加入华佗HybridCLR热更模块  
 * 研究麻将胡牌核心算法  
 * 将一个不能热更且很多BUG的项目，做到非常稳定运行的项目  
-* 1人开发8个月
+* 1人开发7月+
   
 <div class="flex items-center justify-center">
     <a

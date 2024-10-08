@@ -8,9 +8,10 @@ repoURL: ""
 
 ![Blackjack 21](/blackjack21.png)
 
-* 21点+大富翁玩法+拼图的游戏
+* 从0到1，开发21点+大富翁玩法+拼图的游戏
+* 负责底层框架搭建，核心玩法及UI开发
 * 上架海外AppStore，GooglePlay
-* 1人开发3个月
+* 1人开发2月+
 
 <div class="flex items-center justify-center">
     <a
