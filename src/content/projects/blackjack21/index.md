@@ -6,7 +6,7 @@ demoURL: "https://apps.apple.com/us/app/blackjack-21-sexy-casino-poker/id6473223
 repoURL: ""
 ---
 
-![Blackjack 21](/blackjack21.png)
+![Blackjack 21](/unity/blackjack21.png)
 
 * 从0到1，开发21点+大富翁玩法+拼图的游戏
 * 负责底层框架搭建，核心玩法及UI开发

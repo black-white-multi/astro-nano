@@ -6,7 +6,7 @@ demoURL: "https://apps.apple.com/cl/app/%E9%BA%BB%E5%B0%86%E7%BB%8F%E5%85%B8%E7%
 repoURL: ""
 ---
 
-![麻将经典版](/mahjong.png)
+![麻将经典版](/unity/mahjong.png)
 
 * UI重构，UGUI转为FGUI  
 * UI底层框架重构

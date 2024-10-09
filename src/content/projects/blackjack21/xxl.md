@@ -6,7 +6,7 @@ demoURL: ""
 repoURL: ""
 ---
 
-![糖果拼乐拼](/xxl.png)
+![糖果拼乐拼](/unity/xxl.png)
 
 * 从0到1，开发一个三消游戏
 * 负责底层框架搭建
