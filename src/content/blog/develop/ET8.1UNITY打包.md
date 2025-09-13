@@ -48,6 +48,10 @@ YooAsset   -> BuildBuildinFileManifest
 
  ET -> Build Tool -> BuildPackge
 
+音效转换:  
+https://github.com/BtbN/FFmpeg-Builds  
 
-音效转换：
-https://github.com/BtbN/FFmpeg-Builds
+编译报错  
+GlobalConfig(CodeMode = Client)  
+需要删除
+\ET\Unity\Assets\Scripts\Model\Generate\{CodeMode}\Igonre.asmdef
